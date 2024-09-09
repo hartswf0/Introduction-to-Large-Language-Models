@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to Large Language Models</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Side menu navigation for collapsible sections -->
+        <nav id="sideMenu">
+            <!-- Fixed side menu with sections and sub-sections -->
+            <h3 class="section" onclick="toggleSection('models')">MODELS</h3>
+            <ul id="models" class="submenu">
+                <li><a href="#" onclick="loadModel('GPT')">GPT</a></li>
+                <li><a href="#" onclick="loadModel('Llama')">Llama</a></li>
+                <li><a href="#" onclick="loadModel('Claude')">Claude</a></li>
+                <li><a href="#" onclick="loadModel('Gemini')">Gemini</a></li>
+            </ul>
+
+            <h3 class="section" onclick="toggleSection('benchmarks')">BENCHMARKS</h3>
+            <ul id="benchmarks" class="submenu">
+                <li><a href="#" onclick="loadModel('MMLU')">MMLU</a></li>
+                <li><a href="#" onclick="loadModel('HumanEval')">HumanEval</a></li>
+            </ul>
+
+            <h3 class="section" onclick="toggleSection('promptEngineering')">PROMPT ENGINEERING</h3>
+            <ul id="promptEngineering" class="submenu">
+                <li><a href="#" onclick="loadModel('Basics')">Basics</a></li>
+                <li><a href="#" onclick="loadModel('Advanced')">Advanced</a></li>
+            </ul>
+
+            <h3 class="section" onclick="toggleSection('applications')">APPLICATIONS</h3>
+            <ul id="applications" class="submenu">
+                <li><a href="#" onclick="loadModel('Healthcare')">Healthcare</a></li>
+                <li><a href="#" onclick="loadModel('Finance')">Finance</a></li>
+                <li><a href="#" onclick="loadModel('Education')">Education</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main content section for displaying the selected model pages and slides -->
+        <main>
+            <h1 id="pageTitle">Model Overview</h1>
+            <div id="slidesContainer" class="slides-container"></div>
+            <div id="sourcesContainer" class="sources-container"></div> <!-- For displaying sources -->
+        </main>
+    </div>
+
+    <!-- Modal for displaying detailed slide content -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+
+    <!-- Data Files (Models) -->
+    <script src="models/gpt.js"></script>
+    <script src="models/llama.js"></script>
+    <script src="models/claude.js"></script>
+    <script src="models/gemini.js"></script>
+
+    <!-- Data Files (Benchmarks) -->
+    <script src="benchmarks/mmlu.js"></script>
+    <script src="benchmarks/humaneval.js"></script>
+
+    <!-- Data Files (Prompt Engineering) -->
+    <script src="prompt_engineering/basics.js"></script>
+    <script src="prompt_engineering/advanced.js"></script>
+
+    <!-- Data Files (Applications) -->
+    <script src="applications/healthcare.js"></script>
+    <script src="applications/finance.js"></script>
+    <script src="applications/education.js"></script>
+
+    <!-- Main Script -->
+    <script src="script.js"></script>
+</body>
+</html>
