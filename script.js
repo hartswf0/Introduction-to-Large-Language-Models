@@ -41,7 +41,7 @@ function renderSideMenu() {
         Object.keys(siteDataSets[category]).forEach(model => {
             const subMenuItem = document.createElement('li');
             const link = document.createElement('a');
-            link.href = '#';
+            link.href = '/';
             link.textContent = model;
             link.onclick = (e) => {
                 e.preventDefault();
