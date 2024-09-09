@@ -41,7 +41,7 @@ function renderSideMenu() {
         Object.keys(siteDataSets[category]).forEach(model => {
             const subMenuItem = document.createElement('li');
             const link = document.createElement('a');
-            link.href = './';
+            link.href = 'javascript:void(0);'; // Prevent default navigation
             link.textContent = model;
             link.onclick = (e) => {
                 e.preventDefault();
@@ -201,7 +201,6 @@ function renderModelPages(category, model) {
     renderSources(currentSiteData.sections);
 }
 
-
 // Function to open a modal with the slide content
 function openModal(slide) {
     const modal = document.getElementById('modal');
@@ -226,4 +225,6 @@ function closeModal() {
 }
 
 // Call to render the side menu on page load
-renderSideMenu();
+document.addEventListener('DOMContentLoaded', function() {
+    renderSideMenu();
+});
