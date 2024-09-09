@@ -5,7 +5,7 @@ const advancedData = {
             pages: [
                 {
                     title: "Overview",
-                    source: ["https://prompts.com/advanced"],
+                    source: ["https://platform.openai.com/playground/chat?models=gpt-4o"],
                     slides: [
                         {
                             id: 1,
@@ -19,7 +19,7 @@ const advancedData = {
                 },
                 {
                     title: "Temperature",
-                    source: ["https://prompts.com/temperature"],
+                    source: ["https://platform.openai.com/docs/api-reference/fine-tuning/create"],
                     slides: [
                         {
                             id: 2,
@@ -49,7 +49,7 @@ const advancedData = {
                 },
                 {
                     title: "Top-p",
-                    source: ["https://prompts.com/top-p"],
+                    source: ["https://community.openai.com/t/a-better-explanation-of-top-p/2426"],
                     slides: [
                         {
                             id: 5,
@@ -79,7 +79,7 @@ const advancedData = {
                 },
                 {
                     title: "Frequency Penalty",
-                    source: ["https://prompts.com/frequency-penalty"],
+                    source: ["https://community.openai.com/t/difference-between-frequency-and-presence-penalties/2777"],
                     slides: [
                         {
                             id: 8,
@@ -109,7 +109,7 @@ const advancedData = {
                 },
                 {
                     title: "Presence Penalty",
-                    source: ["https://prompts.com/presence-penalty"],
+                    source: ["https://community.openai.com/t/presence-penalty-and-frequency-penalty-parameters/302813"],
                     slides: [
                         {
                             id: 11,
@@ -139,7 +139,7 @@ const advancedData = {
                 },
                 {
                     title: "Max Tokens",
-                    source: ["https://prompts.com/max-tokens"],
+                    source: ["https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them"],
                     slides: [
                         {
                             id: 14,

@@ -26,7 +26,7 @@ const gptData = {
                 },
                 {
                     title: "About OpenAI",
-                    source: ["https://openai.com/about/", "https://openai.com/charter/", "https://openai.com/index/planning-for-agi-and-beyond/"],
+                    source: ["https://openai.com/about/"],
                     slides: [
                         {
                             id: 2,

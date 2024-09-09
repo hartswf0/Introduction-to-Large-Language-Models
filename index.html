@@ -18,19 +18,19 @@
                 <li><a href="javascript:void(0);" onclick="loadModel('Claude')">Claude</a></li>
                 <li><a href="javascript:void(0);" onclick="loadModel('Gemini')">Gemini</a></li>
             </ul>
-        
+
             <h3 class="section" onclick="toggleSection('benchmarks')">BENCHMARKS</h3>
             <ul id="benchmarks" class="submenu">
                 <li><a href="javascript:void(0);" onclick="loadModel('MMLU')">MMLU</a></li>
                 <li><a href="javascript:void(0);" onclick="loadModel('HumanEval')">HumanEval</a></li>
             </ul>
-        
+
             <h3 class="section" onclick="toggleSection('promptEngineering')">PROMPT ENGINEERING</h3>
             <ul id="promptEngineering" class="submenu">
                 <li><a href="javascript:void(0);" onclick="loadModel('Basics')">Basics</a></li>
                 <li><a href="javascript:void(0);" onclick="loadModel('Advanced')">Advanced</a></li>
             </ul>
-        
+
             <h3 class="section" onclick="toggleSection('applications')">APPLICATIONS</h3>
             <ul id="applications" class="submenu">
                 <li><a href="javascript:void(0);" onclick="loadModel('Healthcare')">Healthcare</a></li>
@@ -38,20 +38,48 @@
                 <li><a href="javascript:void(0);" onclick="loadModel('Education')">Education</a></li>
             </ul>
         </nav>
+
         <!-- Main content section for displaying the selected model pages and slides -->
         <main>
             <h1 id="pageTitle">Model Overview</h1>
-            <div id="slidesContainer" class="slides-container"></div>
+            
+            <!-- Rows for each data source (Models, Benchmarks, etc.) -->
+            <div id="dataRows">
+                <!-- Models row -->
+                <section id="modelsRow">
+                    <h2>Models</h2>
+                    <div class="card-grid" id="modelsCardGrid"></div> <!-- Cards for models will be inserted here -->
+                </section>
+                
+                <!-- Benchmarks row -->
+                <section id="benchmarksRow">
+                    <h2>Benchmarks</h2>
+                    <div class="card-grid" id="benchmarksCardGrid"></div> <!-- Cards for benchmarks will be inserted here -->
+                </section>
+
+                <!-- Prompt Engineering row -->
+                <section id="promptEngineeringRow">
+                    <h2>Prompt Engineering</h2>
+                    <div class="card-grid" id="promptEngineeringCardGrid"></div> <!-- Cards for prompt engineering will be inserted here -->
+                </section>
+
+                <!-- Applications row -->
+                <section id="applicationsRow">
+                    <h2>Applications</h2>
+                    <div class="card-grid" id="applicationsCardGrid"></div> <!-- Cards for applications will be inserted here -->
+                </section>
+            </div>
+
             <div id="sourcesContainer" class="sources-container"></div> <!-- For displaying sources -->
         </main>
     </div>
 
     <!-- Modal for displaying detailed slide content -->
     <div id="modal" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal()">&times;</span>
-            <div id="modalContent"></div>
+        <div id="modalContent" class="modal-content">
+            <!-- Slide content will be injected here -->
         </div>
+        <button class="close-modal" onclick="closeModal()">&times;</button>
     </div>
 
     <!-- Data Files (Models) -->
@@ -77,3 +105,4 @@
     <script src="script.js"></script>
 </body>
 </html>
+

@@ -5,7 +5,7 @@ const claudeData = {
             pages: [
                 {
                     title: "Claude (Anthropic) - Nutrition Label",
-                    source: ["https://claude.ai"],
+                    source: ["https://www.anthropic.com/news/claude-3-5-sonnet"],
                     slides: [
                         {
                             id: 1,

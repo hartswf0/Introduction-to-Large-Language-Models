@@ -5,7 +5,7 @@ const healthcareData = {
             pages: [
                 {
                     title: "Healthcare Diagnostics",
-                    source: ["https://healthcare-diagnostics.com"],
+                    source: ["https://chatgpt.com/g/g-zncy65Zot-awv-telehealth-representative"],
                     slides: [
                         {
                             id: 1,
@@ -22,7 +22,7 @@ const healthcareData = {
                 },
                 {
                     title: "NGOs (Humanitarian Efforts)",
-                    source: ["https://ngos.com"],
+                    source: ["https://who-en.digitalhero.cloud/landing/index.html"],
                     slides: [
                         {
                             id: 2,

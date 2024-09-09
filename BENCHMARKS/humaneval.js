@@ -5,7 +5,7 @@ const humanevalData = {
             pages: [
                 {
                     title: "HumanEval Benchmark",
-                    source: ["https://humaneval.com"],
+                    source: ["https://paperswithcode.com/dataset/humaneval"],
                     slides: [
                         {
                             id: 1,
@@ -27,7 +27,7 @@ const humanevalData = {
                 },
                 {
                     title: "LLM Arena Benchmark",
-                    source: ["https://llmarena.com"],
+                    source: ["https://lmarena.ai/"],
                     slides: [
                         {
                             id: 3,
@@ -49,7 +49,7 @@ const humanevalData = {
                 },
                 {
                     title: "Turing Test Benchmark",
-                    source: ["https://turingtest.com"],
+                    source: ["https://arxiv.org/pdf/2305.20010"],
                     slides: [
                         {
                             id: 5,

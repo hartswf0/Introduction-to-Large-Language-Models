@@ -5,7 +5,7 @@ const mmluData = {
             pages: [
                 {
                     title: "MMLU Benchmark",
-                    source: ["https://mmlu.com"],
+                    source: ["https://paperswithcode.com/dataset/mmlu"],
                     slides: [
                         {
                             id: 1,
@@ -28,7 +28,7 @@ const mmluData = {
                 },
                 {
                     title: "MMMU Benchmark",
-                    source: ["https://mmmu.com"],
+                    source: ["https://paperswithcode.com/paper/mmmu-a-massive-multi-discipline-multimodal"],
                     slides: [
                         {
                             id: 3,
@@ -51,7 +51,7 @@ const mmluData = {
                 },
                 {
                     title: "HellaSwag Benchmark",
-                    source: ["https://hellaswag.com"],
+                    source: ["https://paperswithcode.com/dataset/hellaswag"],
                     slides: [
                         {
                             id: 5,
@@ -73,7 +73,7 @@ const mmluData = {
                 },
                 {
                     title: "MATH Benchmark",
-                    source: ["https://mathbenchmark.com"],
+                    source: ["https://paperswithcode.com/dataset/math"],
                     slides: [
                         {
                             id: 7,
@@ -96,7 +96,7 @@ const mmluData = {
                 },
                 {
                     title: "Big Bench Benchmark",
-                    source: ["https://bigbench.com"],
+                    source: ["https://paperswithcode.com/dataset/big-bench"],
                     slides: [
                         {
                             id: 9,

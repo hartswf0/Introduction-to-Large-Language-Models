@@ -5,7 +5,7 @@ const financeData = {
             pages: [
                 {
                     title: "Customer Support",
-                    source: ["https://business-support.com"],
+                    source: ["https://www.wired.com/story/air-canada-chatbot-refund-policy/"],
                     slides: [
                         {
                             id: 1,
@@ -22,7 +22,7 @@ const financeData = {
                 },
                 {
                     title: "Market Research and Analysis",
-                    source: ["https://market-research.com"],
+                    source: ["https://chatgpt.com/g/g-jt0tuRygF-market-insighter/c/66df2d5c-2960-800d-8a80-2d05dbbb0e96"],
                     slides: [
                         {
                             id: 2,
@@ -39,7 +39,7 @@ const financeData = {
                 },
                 {
                     title: "Decision Making",
-                    source: ["https://business-strategy.com"],
+                    source: ["https://ai.meta.com/research/cicero/"],
                     slides: [
                         {
                             id: 3,
@@ -56,7 +56,7 @@ const financeData = {
                 },
                 {
                     title: "Legal Document Review",
-                    source: ["https://legal-documents.com"],
+                    source: ["https://storage.courtlistener.com/recap/gov.uscourts.nysd.575368/gov.uscourts.nysd.575368.32.1_1.pdf?utm_source=Sailthru&utm_medium=Newsletter&utm_campaign=Daily-Docket&utm_term=053023"],
                     slides: [
                         {
                             id: 4,
@@ -73,7 +73,7 @@ const financeData = {
                 },
                 {
                     title: "Government (Public Policy)",
-                    source: ["https://government.com"],
+                    source: ["https://www.vice.com/en/article/ai-mayor-wyoming/"],
                     slides: [
                         {
                             id: 5,

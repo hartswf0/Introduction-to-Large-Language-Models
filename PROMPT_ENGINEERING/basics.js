@@ -5,7 +5,7 @@ const basicsData = {
             pages: [
                 {
                     title: "Overview",
-                    source: ["https://prompts.com/basics"],
+                    source: ["https://ai.google.dev/gemini-api/docs/prompting-intro"],
                     slides: [
                         {
                             id: 1,
@@ -19,7 +19,7 @@ const basicsData = {
                 },
                 {
                     title: "Token",
-                    source: ["https://prompts.com/token"],
+                    source: ["https://mark-riedl.medium.com/a-very-gentle-introduction-to-large-language-models-without-the-hype-5f67941fa59e"],
                     slides: [
                         {
                             id: 2,
@@ -80,7 +80,7 @@ const basicsData = {
                 },
                 {
                     title: "Model Properties",
-                    source: ["https://prompts.com/model-properties"],
+                    source: ["https://huggingface.co/docs/hub/en/model-cards"],
                     slides: [
                         {
                             id: 8,
@@ -126,7 +126,7 @@ const basicsData = {
                 },
                 {
                     title: "Training and Fine-Tuning",
-                    source: ["https://prompts.com/training-finetuning"],
+                    source: ["https://platform.openai.com/docs/guides/fine-tuning/what-models-can-be-fine-tuned"],
                     slides: [
                         {
                             id: 13,
